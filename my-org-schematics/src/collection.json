@@ -4,6 +4,11 @@
     "my-org-schematics": {
       "description": "A blank schematic.",
       "factory": "./my-org-schematics/index#myOrgSchematics"
+    },
+    "my-component": {
+      "description": "Create a new Component",
+      "factory": "./my-component/index#myComponentSchematics",
+      "schema": "./my-component/schema.json"
     }
   }
 }
