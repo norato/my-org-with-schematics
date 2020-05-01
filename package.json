@@ -7,7 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "schematics:install": "yarn --cwd ./my-org-schematics",
+    "schematics:build": "yarn --cwd ./my-org-schematics build",
+    "schematics:link": "yarn link --cwd ./my-org-schematics && yarn link 'my-org-schematics'"
   },
   "private": true,
   "dependencies": {
